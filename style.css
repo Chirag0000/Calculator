@@ -1,0 +1,56 @@
+body{
+  font-family: 'Rubik', sans-serif;
+  background-color:black;
+}
+#container{
+  width:1000px;
+  height:550px;
+  background-image:url('https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHw%3D&w=1000&q=80');
+  margin:auto;
+}
+
+#calculator{
+  width: 400px;
+  height:500px;
+  background: whitesmoke;
+  margin: auto;
+  border-radius: 10px;
+  position:relative;
+  box-shadow:1px 1px 5px 5px #635656c9;
+}
+
+#result{
+  height:120px;
+}
+
+#history{
+    text-align: right;
+    height: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #919191;
+}
+#output{
+  text-align: right;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.operator, .number{
+    width: 40px;
+    height: 50px;
+    margin: 20px;
+    border-radius:10px;
+    float: left;
+    border-width: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.operator:focus, .number:focus{
+  outline:0;
+}
+
